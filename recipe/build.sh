@@ -11,6 +11,6 @@ cmake -DCMAKE_INSTALL_PREFIX=$PREFIX \
       ..
 
 make -j ${CPU_COUNT}
-ctest -E "writercollectiontest|extractorcollectiontest|ffmpegextractortest|extractorcoveragetest"
+ctest -E "writercollectiontest|extractorcollectiontest|ffmpegextractortest|extractorcoveragetest|externalextractortest|externalwritertest"
 make install
 popd
