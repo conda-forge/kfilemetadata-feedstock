@@ -22,6 +22,6 @@ pin_run_as_build:
   qt:
     max_pin: x.x
 poppler:
-- 0.67.0
+- '0.87'
 qt:
 - '5.12'
