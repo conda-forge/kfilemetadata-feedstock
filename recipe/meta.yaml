@@ -22,7 +22,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - extra-cmake-modules
+    - extra-cmake-modules >={{ major_minor }}
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}  # [linux]
@@ -36,10 +36,10 @@ requirements:
     - exiv2
     - ffmpeg
     - poppler
-    - ki18n
-    - kconfig
-    - karchive
-    - kcoreaddons
+    - ki18n >={{ major_minor }}
+    - kconfig >={{ major_minor }}
+    - karchive >={{ major_minor }}
+    - kcoreaddons >={{ major_minor }}
   run:
     - exiv2
 
