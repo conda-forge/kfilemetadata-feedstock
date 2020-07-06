@@ -11,7 +11,7 @@ source:
   sha256: 2e302958065157c1f9ea4a189bbca40b7dbed019767a3380e34e0b6a633c75fe
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kfilemetadata', max_pin='x.x') }}
