@@ -1,5 +1,5 @@
 {% set name = "kfilemetadata" %}
-{% set version = "5.72.0" %}
+{% set version = "5.73.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kfilemetadata-{{ version }}.tar.xz
-  sha256: 6f93d0b5dedb3beffbb7626130707a3b11522c58b3081e3b539dbeb9fbd3d1c3
+  sha256: 1ae217aab920741e445211e20b1b60dfcf80f4a6d1864aa63321dac7c3802894
 
 build:
   number: 0
