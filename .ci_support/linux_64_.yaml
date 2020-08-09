@@ -25,3 +25,5 @@ poppler:
 - '0.89'
 qt:
 - '5.12'
+target_platform:
+- linux-64
