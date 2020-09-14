@@ -1,5 +1,5 @@
 {% set name = "kfilemetadata" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kfilemetadata-{{ version }}.tar.xz
-  sha256: 1ae217aab920741e445211e20b1b60dfcf80f4a6d1864aa63321dac7c3802894
+  sha256: c5fab0101a39265eeb1884522ed548ae106cd434d6313be1fc0bdba4f29dc5a8
 
 build:
   number: 0
@@ -49,9 +49,13 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kfilemetadata/html/index.html
-  license: GPL-v2
-  license_family: GPL
-  license_file: COPYING.LGPL-2
+  license: BSD-3-Clause AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
+  license_file:
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/LGPL-2.1-only.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
   summary: Simple library for extracting metadat
   description: |
     KFileMetaData provides a simple library for extracting the
