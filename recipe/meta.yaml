@@ -49,9 +49,13 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kfilemetadata/html/index.html
-  license: GPL-v2
-  license_family: GPL
-  license_file: COPYING.LGPL-2
+  license: BSD-3-Clause AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
+  license_file:
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/LGPL-2.1-only.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
   summary: Simple library for extracting metadat
   description: |
     KFileMetaData provides a simple library for extracting the
