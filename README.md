@@ -3,11 +3,13 @@ About kfilemetadata
 
 Home: https://api.kde.org/frameworks/kfilemetadata/html/index.html
 
-Package license: GPL-v2
+Package license: BSD-3-Clause AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kfilemetadata-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple library for extracting metadat
+
+Development: https://cgit.kde.org/kfilemetadata.git/tree
 
 KFileMetaData provides a simple library for extracting the
 text and metadata from a number of different files. This library
